@@ -1,6 +1,27 @@
-﻿<Properties StartupConfiguration="{244A56DE-D3FB-4F40-A496-75DFD55EEAD9}|Default">
+﻿<Properties StartupConfiguration="{E9E1D5E8-DEC0-4291-A9CC-73D732AD86E6}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DeliverApp.Mobile" expanded="True" selected="True">
+            <Node name="DeliverApp.Mobile" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="LoginPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DeliverApp.Mobile.iOS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DeliverApp.Mobile FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DeliverApp.Mobile.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DeliverApp.Mobile.Android FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DeliverApp.Mobile.Android FirstBuild="True" PreferredExecutionTarget="Android.Pixel_3a_API_33_arm64-v8a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_3a_API_33_arm64-v8a" />
 </Properties>
