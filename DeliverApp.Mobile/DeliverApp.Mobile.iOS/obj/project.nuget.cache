@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "k08/7t1M+5ww718meOOo0ybFmlEvQ5KVuyFoTLW7ffaFUb+qPWGD2ofOdZVCdy3JhVPfh38XQI8X23g5LCV21A==",
+  "success": true,
+  "projectFilePath": "/Users/ivansoria/Projects/DeliverApp.Mobile/DeliverApp.Mobile/DeliverApp.Mobile.iOS/DeliverApp.Mobile.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/ivansoria/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/ivansoria/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/ivansoria/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
