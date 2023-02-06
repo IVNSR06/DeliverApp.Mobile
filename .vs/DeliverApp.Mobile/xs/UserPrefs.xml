@@ -1,27 +1,25 @@
 ﻿<Properties StartupConfiguration="{E9E1D5E8-DEC0-4291-A9CC-73D732AD86E6}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DeliverApp.Mobile.Android FirstBuild="True" PreferredExecutionTarget="Android.Pixel_3a_API_33_arm64-v8a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeliverApp.Mobile/DeliverApp.Mobile.Android/MainActivity.cs">
+    <Files>
+      <File FileName="DeliverApp.Mobile/DeliverApp.Mobile.Android/MainActivity.cs" Line="25" Column="80" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DeliverApp.Mobile" expanded="True" selected="True">
-            <Node name="DeliverApp.Mobile" expanded="True">
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="LoginPage.xaml" expanded="True" />
-              </Node>
-            </Node>
+          <Node name="DeliverApp.Mobile" expanded="True">
+            <Node name="DeliverApp.Mobile.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DeliverApp.Mobile.iOS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
-  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_3a_API_33_arm64-v8a" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DeliverApp.Mobile.Android FirstBuild="True" PreferredExecutionTarget="Android.Pixel_3a_API_33_arm64-v8a" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_3a_API_33_arm64-v8a" />
+  <MonoDevelop.Ide.ItemProperties.DeliverApp.Mobile.iOS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7C58E204-ABB7-452A-A656-CBA89BAA5109" />
+  <MultiItemStartupConfigurations />
 </Properties>

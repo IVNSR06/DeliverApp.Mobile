@@ -123,8 +123,8 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.4" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -132,5 +132,17 @@
       <Project>{43CB7454-3A39-4676-91C2-F1B30A925FA8}</Project>
       <Name>DeliverApp.Mobile</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\CalculatorIcon.png" />
+    <BundleResource Include="Resources\ClockIcon.png" />
+    <BundleResource Include="Resources\MagnifyingGlassIcon.png" />
+    <BundleResource Include="Resources\MessageIcon.png" />
+    <BundleResource Include="Resources\MoreIcon.png" />
+    <BundleResource Include="Resources\NotificationIcon.png" />
+    <BundleResource Include="Resources\PackageIcon.png" />
+    <BundleResource Include="Resources\TruckIcon.png" />
+    <BundleResource Include="Resources\UserIcon.png" />
+    <BundleResource Include="Resources\WalkIcon.png" />
   </ItemGroup>
 </Project>

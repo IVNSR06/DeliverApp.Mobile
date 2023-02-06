@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms"
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      x:Class="DeliverApp.Mobile.Controls.DeliveringCard"
+      x:Name="this"
+      xmlns:resources="clr-namespace:DeliverApp.Mobile.Resources"
+      ColumnDefinitions="2*,6*,2*">
+    <StackLayout Grid.Column="1">
+        <Label Text="{Binding Deliver.Product.Name, Source={x:Reference this}}"/>
+        <Label Text="{Binding Deliver.TrackingNumber, Source={x:Reference this}}" />
+        <Grid ColumnDefinitions="5*,5*">
+            <StackLayout Grid.Column="0" Grid.Row="0">
+                <Label Text="{x:StaticResource resources:Resources.To}"/>
+                <Label Text="{Binding Deliver.DeliverAddress, Source={x:Reference this}, Converter={StaticResource deliverAddressConverter}}" />
+            </StackLayout>
+            <StackLayout Grid.Column="1" Grid.Row="0">
+                <Label Text="{x:StaticResource resources:Resources.Status}"/>
+                <Label Text="{Binding Deliver.Status, Source={x:Reference this}, Converter={StaticResource shipmentStatusConverter}}" />
+            </StackLayout>
+            <StackLayout Grid.Column="0" Grid.Row="1">
+                <Label Text="{x:StaticResource resources:Resources.From}"/>
+                <Label Text="{Binding Deliver.ShipmentAddress, Source={x:Reference this}, Converter={StaticResource deliverAddressConverter}}" />
+            </StackLayout>
+            <StackLayout Grid.Column="1" Grid.Row="1">
+                <Label Text="{x:StaticResource resources:Resources.RecipientName}"/>
+                <Label Text="{Binding Deliver.Recipient, Source={x:Reference this}, Converter={StaticResource personNameSpacesConverter}}" />
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</Grid>
+

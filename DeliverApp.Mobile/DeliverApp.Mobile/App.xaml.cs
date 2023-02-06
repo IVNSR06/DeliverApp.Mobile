@@ -41,6 +41,11 @@ namespace DeliverApp.Mobile
             services.AddSingleton<INavigationService, NavigationService>();
 
             services.AddTransient<LoginPageViewModel>();
+            services.AddTransient<NotificationPageViewModel>();
+            services.AddTransient<ProfilePageViewModel>();
+            services.AddTransient<DeliveryPageViewModel>();
+            services.AddTransient<MapPageViewModel>();
+            services.AddTransient<CalculatorPageViewModel>();
 
             ServiceProvider = services.BuildServiceProvider();
         }

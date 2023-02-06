@@ -1,8 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converter="clr-namespace:DeliverApp.Mobile.Converters"
              x:Class="DeliverApp.Mobile.App">
     <Application.Resources>
+        <!-- Converter -->
+        <converter:DeliverAddressConverter x:Key="deliverAddressConverter" />
+        <converter:ShipmentAddressConverter x:Key="shipmentAddressConverter" />
+        <converter:PersonNameSpacesConverter x:Key="personNameSpacesConverter" />
+        <converter:ShipmentStatusConverter x:Key="shipmentStatusConverter" />
 
+        <!-- Colors -->
+        <Color x:Key="PrimaryBackgroundcolorControls">#f0f6fa</Color>
+        <Color x:Key="SecondaryBackgroundColor">#0285fe</Color>
+        <Color x:Key="PrimaryProductColor">#35d055</Color>
+        <Color x:Key="SecondaryProductColor">#d7f5de</Color>
+        <Color x:Key="PrimaryDeliverColor">#ffb223</Color>
+        <Color x:Key="SecondaryDeliverColor">#fff4c3</Color>
+        <Color x:Key="IconColor">#689ae7</Color>
+        <Color x:Key="BackgroundIconColor">#e7f1f9</Color>
     </Application.Resources>
 </Application>
